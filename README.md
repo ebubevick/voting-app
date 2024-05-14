@@ -18,6 +18,8 @@ Before proceeding, ensure you have the following installed:
 
 Dockerize each microservice following Docker best practices. This typically involves creating a Dockerfile for each component, building Docker images, and pushing them to a container registry.
 
+For detailed instructions on Dockerizing each microservice, please refer to our [guide on Dockerizing Microservices](https://docs.docker.com/docker-hub/quickstart/).
+
 ## Step 2: Creating Kubernetes Deployment YAML Files
 
 Create or download Kubernetes Deployment YAML files from the git repository for each microservice. These files describe the desired state for each microservice and instruct Kubernetes on how to manage their containers.
